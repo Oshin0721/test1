@@ -1,0 +1,14 @@
+#include <string>
+#include <cmath>
+#include <vector>
+
+using namespace std;
+
+long long solution(long long n) {
+    long long answer = -1;
+    
+    if(sqrt(n) - (long long)(sqrt(n)) ==0) {
+      answer = pow(sqrt(n) + 1,2);  
+    } 
+    return answer;
+}
